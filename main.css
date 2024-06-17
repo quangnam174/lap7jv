@@ -1,0 +1,56 @@
+body{
+    background-color: #2db2ff;
+}
+.again{
+    text-align: left;
+}
+.between{
+    text-align: right;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+.random{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    height:  150px;
+    width: 150px;
+    position: absolute;
+}
+.line {
+    width: 100%;
+    border-top: 2px solid black;
+    position:relative ;
+    top: 100px;
+}
+.number{
+    font-size: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px ; 
+}
+/* section class="left"> */
+.left{
+    position: relative;
+    top: 200px;
+    left: 20%;
+}
+
+/* <section class="right"> */
+.right{
+    text-align: right;
+    margin-right: 20%;
+}
+.check{
+    font-size: 40px;
+    
+}
+.guess{
+    text-align: center;
+    font-size: 65px;
+    height: 140px;
+    width: 130px;
+}
